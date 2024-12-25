@@ -80,3 +80,38 @@ body {
     }
 }
 
+/* Style for About Page Headers */
+.well h1 {
+    color: #ee4444; /* Matches the theme's red accent color */
+    font-size: 2em; /* Larger for the main header */
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: left; /* Ensure alignment consistency */
+}
+
+.well h2 {
+    color: #ee4444; /* Consistent red accent for subheaders */
+    font-size: 1.5em; /* Smaller than h1, but still prominent */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.well p {
+    font-size: 1.1em; /* Slightly larger for better readability */
+    line-height: 1.8; /* Improve paragraph spacing */
+    margin-bottom: 1em;
+}
+
+.well ul {
+    margin-left: 1.5em; /* Add left padding for list items */
+    font-size: 1.1em; /* Match paragraph font size */
+    line-height: 1.8; /* Match paragraph line spacing */
+}
+
+.well ul li {
+    margin-bottom: 0.5em; /* Add space between list items */
+}
+
+.well ul li a {
+    color: #428bca; /* Theme's
